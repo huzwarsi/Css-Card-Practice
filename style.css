@@ -1,0 +1,75 @@
+#container{
+
+    /* border:2px solid; */
+
+    height: 400px;
+    align-content: center;
+    padding: 10px;
+    margin-top: 100px;
+}    
+    
+    
+    
+    
+    .Box {
+  border: 30px solid orange;
+  width: 230px;
+  height: 230px;
+  border-radius: 20px;
+  border-left: none;
+  border-right: none;
+  margin: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2),
+              0 6px 20px rgba(0, 0, 0, 0.19);
+  text-align: center;
+  display: inline-block;
+}
+
+/* Default orange style */
+.orange .fa-solid,
+.orange .web-Design {
+  color: orange;
+}
+
+/* Pink box style */
+.pink {
+  border-color: #990e9c;
+}
+.pink .fa-rocket,
+.pink .web-development {
+  color: #990e9c;
+}
+
+/* Purple box style */
+.purple {
+  border-color: #410dff;
+}
+.purple .fa-mobile,
+.purple .Responsive-Design {
+  color: #410dff;
+}
+
+/* Blue box style */
+.blue {
+  border-color: #03cdff;
+}
+.blue .fa-suitcase,
+.blue .Brand-Building {
+  color: #097f9d;
+}
+
+/* Shared styles */
+.fa-solid {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+.text1 {
+  text-align: center;
+  padding: 10px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
